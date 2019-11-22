@@ -7,7 +7,7 @@ Email sending to client is requirment for every morden project. Sending email fr
 
 # Installations
 
-1. Clone the Git repository git clone https://github.com/tariqulislam/express-email-project
+1. Clone the Git repository git clone https://github.com/tariqulislam/nodemailer-express
 2. Run command: For npm ```npm install``` for yarn ```yarn install```
 
 # Configure the smtp server or email Server
@@ -122,7 +122,7 @@ it takes two arguments:
 1. From command line or cmd run command: for npm ```npm run start``` for yarn ```yarn start```
 2. Hit the url at ```postman``` with ```get``` request http://localhost:3000/email/template
 3. the result will be:
-![alt text](https://github.com/tariqulislam/express-email-project/blob/master/gmailtest.jpg)
+![alt text](https://github.com/tariqulislam/nodemailer-express/blob/master/gmailtest.jpg)
 
 # Send email through the own SMTP server:
 
@@ -132,11 +132,11 @@ For testing purpose, we will create ```get``` request for sending the email thro
 
 ### For testing purpose i get the custom smtp information from my shared hosting site by ```cpanel```:
 1. Go to Email account sections
-![alt text](https://github.com/tariqulislam/express-email-project/blob/master/emailclient2.jpg)
+![alt text](https://github.com/tariqulislam/nodemailer-express/blob/master/emailclient2.jpg)
 2. Select Email and you will be option ```email client configuration```
-![alt text](https://github.com/tariqulislam/express-email-project/blob/master/emailclient3.jpg)
+![alt text](https://github.com/tariqulislam/nodemailer-express/blob/master/emailclient3.jpg)
 3. Then get the shared hosting smtp account mail server information for account
-![alt text](https://github.com/tariqulislam/express-email-project/blob/master/emailclient1.jpg)
+![alt text](https://github.com/tariqulislam/nodemailer-express/blob/master/emailclient1.jpg)
 4. After that configure the smtp email to ```.env``` file:
 
 ### For other smtp configuration
@@ -226,9 +226,10 @@ router.get('/email/smtp/template', (req, res, next) => {
 1. From command line or cmd run command: for npm ```npm run start``` for yarn ```yarn start```
 2. Hit the url at ```postman``` with ```get``` request http://localhost:3000/email/smtp/template
 3. the result will be:
-![alt text](https://github.com/tariqulislam/express-email-project/blob/master/emailclient5.jpg)
+![alt text](https://github.com/tariqulislam/nodemailer-express/blob/master/emailclient5.jpg)
 
 
 
 
 
+"# nodemailer-handlebars" 
