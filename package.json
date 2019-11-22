@@ -12,7 +12,7 @@
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0",
+    "morgan": "~1.9.1",
     "nodemailer": "^4.6.7",
     "nodemailer-express-handlebars": "^3.0.0"
   }
